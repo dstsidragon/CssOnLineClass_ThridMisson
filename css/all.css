@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 響應式設計*/
+img{
+        max-width:100%;
+        height:auto;
+}
+a{
+    text-decoration: none;
+}
+/*從這行以下開始*/
+
+body{
+    font-family: 'Noto Sans';
+}
+
+/*header*/
+.header{
+    padding:30px 88px;
+}
+.headerLogo{
+    width: 80px;
+    height: 49px;
+    /*圖片取代文字*/
+    text-indent:101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.headerLogo_img{
+    width: 80px;
+    height: 48.57px;
+}
+.headerMenuItem:hover{
+    border-bottom: white 1px solid;
+}
+
+/*--------   共用   --------*/
+
+/*字體大小*/
+.fz_20_lh_30{
+    font-size: 20px;
+    line-height: 30px;
+}
+/*字體顏色*/
+.fc_white{
+    color: #fff;
+}
+/*背景色*/
+.bg_color_Crimson{
+    background-color: #AA0601;
+}
+
+/*外推擠*/
+.mg_right_64{
+    margin-right: 64px;
+}
+
+/*區塊、行內*/
+.dp_block{
+    display: block;
+}
+/*Flex*/
+.dp_Flex{
+    display: flex;
+}
+.jc_between{
+    justify-content: space-between;
+}
+.jc_around{
+    justify-content: space-around;
+}
+
