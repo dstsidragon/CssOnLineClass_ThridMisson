@@ -95,6 +95,10 @@ body{
 .bg_color_Crimson{
     background-color: #AA0601;
 }
+/*文字對齊*/
+.ta_center{
+    text-align: center;
+}
 
 /*外推擠*/
 .mg_right_64{
@@ -116,3 +120,11 @@ body{
     justify-content: space-around;
 }
 
+.ai_center{
+    align-items: center;
+}
+
+/*邊線*/
+.b_bottom_1_solid_white{
+    border-bottom: 1px solid white;
+}
