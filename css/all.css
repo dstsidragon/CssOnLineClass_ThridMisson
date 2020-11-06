@@ -278,6 +278,9 @@ body{
     flex-wrap:wrap;
     width: 100%;
 }
+.headerMenuItem a{
+    display: block;
+}
 .headerMenuItem a:hover{
     border:none;
     padding-bottom: 0;
