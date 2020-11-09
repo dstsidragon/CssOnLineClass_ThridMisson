@@ -60,6 +60,7 @@ body{
     font-family: 'Noto Sans';
     line-height: 1.5;
 }
+/*-------------Layout-------------*/
 
 /*----- header -----*/
 .header{
@@ -112,6 +113,75 @@ body{
 .footerAnnouncementTerms a:hover{
     color: cornflowerblue;
 }
+/*-------------Index-------------*/
+.banner{
+    background:url(/images/banner.png) no-repeat center center;
+    background-size: cover;
+    height: 840px;
+    
+}
+.containerContent{
+    font-family:Noto sans,Regular;
+}
+.servicetcontentItem{
+    width:20%;
+}
+.classificationImg{
+    width: 55%;
+}
+.classificationLink{
+    width: 45%;
+}
+.co-branding{
+    height: 600px;
+    background: center center url('/images/bg.png');
+}
+.DoubleA{
+    width: 47.5%;
+    height: 472px;
+    background: center center url('/images/product-8.png');
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.Youth{
+    width: 47.5%;
+    height: 472px;
+    background: center center url('/images/product-9.png');
+    opacity: 0.5;
+    background-size: cover;
+}
+.DoubleA:hover,.Youth:hover{
+    opacity: 1;
+}
+.feedbackContent{
+    width: 24%;
+}
+.contactForm{
+    width: 730px;
+}
+.formCheck{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.formButton{
+    width: 354px;
+    height: 52px;
+    cursor: pointer;
+}
+
+/*-------------Product-------------*/
+
+/*-------------Location-------------*/
+
+/*-------------FAQ-------------*/
+
+/*-------------Blog-------------*/
+
+
+
 /*--------   共用   --------*/
 
 .container{
@@ -120,7 +190,10 @@ body{
     padding-left: 45px;
     padding-right: 45px;
 }
-
+/*字型*/
+.ff_Roboto{
+    font-family: "Roboto", sans-serif;
+}
 /*字體大小*/
 .fz_14{
     font-size: 14px;
@@ -131,22 +204,80 @@ body{
 .fz_20{
     font-size: 20px;
 }
+.fz_24{
+    font-size: 24px;
+}
 .fz_36{
     font-size: 36px;
+}
+.fz_48{
+    font-size: 48px;
+}
+.fz_64{
+    font-size: 64px;
+}
+.fz_72{
+    font-size: 72px;
+}
+/*透明度*/
+.opacity_02{
+    opacity: 0.2;
+}
+/*字體粗度*/
+.fw_bold{
+    font-weight: bold;
+}
+.fw_black {
+    font-weight: 900;
+}
+.fw_medium{
+    font-weight: 400;
+}
+.fs_italic{
+    font-style:italic;
 }
 /*字體顏色*/
 .fc_white{
     color: #fff;
 }
+.fc_darkbrand{
+    color: #650300;
+}
+.fc_darkred{
+    color: #AA0601;
+}
+.fc_light_gray{
+    color: #707070;
+}
 /*背景色*/
 .bg_color_Crimson{
     background-color: #AA0601;
 }
+.bg_color_darkPink{
+    background-color:#AA06010D;
+}
+.bg_transparent{
+    background: transparent;
+
+}
+
 /*文字對齊*/
 .ta_center{
     text-align: center;
 }
+.ta_right{
+    text-align: right;
+}
+.ta_left{
+    text-align: left;
+}
 /*內推擠*/
+.pd_1{
+    padding: 8px;
+}
+.pd_2{
+    padding: 16px;
+}
 .pd_3{
     padding: 24px;
 }
@@ -159,8 +290,17 @@ body{
 .pd_top_4{
     padding-top: 32px;
 }
+.pd_top_8{
+    padding-top: 64px;
+}
 .pd_bottom_3{
     padding-bottom: 24px;
+}
+.pd_bottom_8{
+    padding-bottom: 64px;
+}
+.pd_bottom_10{
+    padding-bottom: 80px;
 }
 .pd_right_4{
     padding-right: 32px;
@@ -168,6 +308,7 @@ body{
 .pd_right_6{
     padding-right: 48px;
 }
+
 /*外推擠*/
 
 .mg_right_2{
@@ -185,11 +326,27 @@ body{
 .mg_top_4{
     margin-top: 32px;
 }
+.mg_bottom_1{
+    margin-bottom: 8px;
+}
 .mg_bottom_2{
     margin-bottom: 16px;
 }
 .mg_bottom_3{
     margin-bottom: 24px;
+}
+.mg_bottom_4{
+    margin-bottom: 32px;
+}
+.mg_bottom_5{
+    margin-bottom: 40px;
+}
+.mg_bottom_8{
+    margin-bottom: 64px;
+}
+
+.mg_0a{
+    margin: 0 auto;
 }
 
 /*區塊、行內*/
@@ -200,22 +357,52 @@ body{
 .dp_Flex{
     display: flex;
 }
+.F_wrap{
+    flex-wrap: wrap;
+}
+.fd_colmun{
+    flex-direction: column;
+}
+.fd_row_reverse{
+    flex-direction: row-reverse;
+}
+.jc_center{
+    justify-content: center;
+}
 .jc_between{
     justify-content: space-between;
 }
 .jc_around{
     justify-content: space-around;
 }
-
+.jc_end{
+    justify-content:flex-end;
+}
 .ai_center{
     align-items: center;
 }
-
+/*高度*/
+.h_full{
+    height: 100%;
+}
+/*寬度*/
+.w_full{
+    width: 100%;
+}
 /*邊線*/
 .b_bottom_1_solid_white{
     border-bottom: 1px solid #FFFFFF;
 }
+.b_bottom_1_solid_lightwhite{
+    border: 1px solid #DEE2E6;
 
+}
+.b_bottom_1_solid_dark{
+    border: 1px solid #000000;
+
+}
+
+   
 
 /*-------------------- RWD --------------------*/
 
