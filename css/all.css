@@ -123,9 +123,11 @@ body{
 .containerContent{
     font-family:Noto sans,Regular;
 }
+.servicetcontentList{
+    width: 100%;
+}
 .servicetcontentItem{
     width:20%;
-    height: auto;
 }
 .classificationImg{
     width: 53%;
@@ -134,7 +136,6 @@ body{
     width: 43%;
 }
 .co-branding{
-    height: 600px;
     background: center center url('/images/bg.png');
 }
 .DoubleA{
@@ -311,7 +312,9 @@ body{
 }
 
 /*外推擠*/
-
+.mg_right_1{
+    margin-right: 8px;
+}
 .mg_right_2{
     margin-right: 16px;
 }
@@ -355,6 +358,9 @@ body{
 /*區塊、行內*/
 .dp_block{
     display: block;
+}
+.dp_none{
+    display: none;
 }
 /*Flex*/
 .dp_Flex{
@@ -444,10 +450,157 @@ body{
 /*--------   共用   --------*/
 
 .container{
-    max-width: 700px;
+    max-width: 768px;
     padding-left: 39px;
     padding-right: 39px;
 }
+
+/*-------------Index-------------*/
+.banner{
+    background:url(/images/banner-sm.png) no-repeat center center;
+    background-size: cover;
+}
+.containerTittle{
+    font-size:48px;
+}
+.containerContent{
+    font-size: 20px;
+}
+.servicetcontent .container{
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+.servicetcontentTittle{
+    font-size: 32px;
+}
+.servicetcontentList{
+    flex-wrap: wrap;
+}
+.servicetcontentItem{
+    width: 40%;
+    margin-bottom: 40px;
+}
+.order_1{
+    order: -1;
+}
+.servicetcontentItem img{
+    margin-bottom: 16px;
+}
+.servicetcontentItem h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.servicetcontentItem p{
+    font-size: 16px;
+}
+.classification{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.classificationTittle{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.classificationLink img{
+    width: 32px;
+}
+.classificationLink p{
+    font-size: 28px;
+}
+.optical{
+    margin-bottom: 8px;
+}
+.sunglasses{
+    flex-direction:row;
+    margin-bottom: 8px;
+}
+.sunglasses a{
+    justify-content: start;
+}
+.sunglasses .classificationImg{
+    margin-right: 32px;
+}
+.functional a img{
+    width: 23px;
+    height: 32px;
+}
+.co-branding{
+    background: center center no-repeat url('/images/bg.png');
+    background-size: cover;
+}
+.co-branding .container{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.co-brandingTittle {
+    margin-bottom: 32px;
+    font-size: 32px;
+}
+.DoubleA{
+    font-size: 32px;
+    height: 280px;
+   
+}
+.Youth{
+    font-size: 32px;
+    height: 280px;
+}
+.customerfeedbackTittle{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.customerfeedbackContent{
+    flex-wrap: wrap;
+}
+.customerfeedback{
+    padding-top: 40px;
+    padding-bottom: 12px;
+}
+.feedbackContent{
+    width: 42%;
+    margin-bottom: 28px;
+}
+.contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contactForm{
+    width: 450px;
+    font-size: 14px;
+}
+.contactTitle{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.contactFormMain{
+    font-size: 16px;
+}
+.formName,.formTel,.formEmail,.formContent{
+    padding: 8px;
+    font-size: 14px;
+}
+.formCheck{
+    width: 17px;
+    height: 17px;
+}
+.check{
+    align-items: initial;
+}
+
+.formButton{
+    width: 350px;
+    height: 54px;
+}
+
+/*-------------Product-------------*/
+
+/*-------------Location-------------*/
+
+/*-------------FAQ-------------*/
+
+/*-------------Blog-------------*/
+
 }
 
 /*---- 767~414 Phone----*/
@@ -470,6 +623,7 @@ body{
 .headerMenu{
     flex-wrap:wrap;
     width: 100%;
+    justify-content: space-around;
 }
 .headerMenuItem a{
     display: block;
@@ -515,11 +669,134 @@ body{
 /*--------   共用   --------*/
 
 .container{
-    max-width: 370px;
+    max-width: 375px;
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/*-------------Index-------------*/
+.banner{
+    height: 394px;
 }
+.containerTittle{
+    font-size:32px;
+}
+.containerContent{
+    font-size: 16px;
+}
+.servicetcontentTittle{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.servicetcontentItem{
+    width: 65%;
+}
+
+.servicetcontent .container{
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+.servicetcontentItem img{
+    width: 80px;
+}
+.classification{
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+.classificationTittle{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.classificationLink{
+    position: absolute;
+    top: 53px;
+    left: 95px;
+}
+.classificationLinkImg{
+    display: none;
+}
+.classificationLinkHideImg{
+    display: block;
+}
+.classificationLink p{
+    color: #FFF;
+}
+.classificationImg{
+    width: 100%;
+}
+.optical,.sunglasses,
+.functional{
+    position: relative;
+}
+.sunglasses .classificationImg{
+    margin-right: 0;
+}
+
+.co-branding .container{
+    padding-bottom: 16px;
+    padding-top: 32px;
+}
+.co-brandingTittle {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.co-brandingList{
+    flex-wrap: wrap;
+}
+.DoubleA{
+    width: 100%;
+    height: 284px;
+    margin-bottom: 16px;
+}
+.Youth{
+    width: 100%;
+    height: 284px;
+    margin-bottom: 16px;
+    
+}
+.customerfeedback{
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+.customerfeedbackTittle{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.feedbackContent{
+    width: 85%;
+    margin-bottom: 16px;
+}
+.contact{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.contactForm{
+    width: 345px;
+}
+
+.contactTitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.formButton{
+    width: 165px;
+    height: 36px;
+}
+
+/*-------------Product-------------*/
+
+/*-------------Location-------------*/
+
+/*-------------FAQ-------------*/
+
+/*-------------Blog-------------*/
+
+}
+
+
+
 /*---- 320 Phone----*/
 @media(max-width: 320px) {
     /*----- header -----*/
