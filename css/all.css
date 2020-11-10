@@ -125,6 +125,7 @@ body{
 }
 .servicetcontentItem{
     width:20%;
+    height: auto;
 }
 .classificationImg{
     width: 53%;
@@ -344,7 +345,9 @@ body{
 .mg_bottom_8{
     margin-bottom: 64px;
 }
-
+.mg_bottom_10{
+    margin-bottom: 80px;
+}
 .mg_0a{
     margin: 0 auto;
 }
@@ -380,6 +383,9 @@ body{
 }
 .ai_center{
     align-items: center;
+}
+.ai_baseline{
+    align-items: baseline;
 }
 /*高度*/
 .h_full{
