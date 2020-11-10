@@ -175,6 +175,35 @@ body{
 }
 
 /*-------------Product-------------*/
+.opticalLinkkImg{
+    width: 48px;
+}
+.sunglassesLinkImg{
+    width: 48px;
+}
+.functionalLinkImg{
+    width: 35px;
+}
+.glassClass{
+    max-width: 1386px;
+}
+
+.glassClassItem{
+    width: 33.333333%;
+}
+.productBanner div{
+    width: 49%;
+    height: 309px;
+    
+}
+.productBannerImg{
+    background:center center no-repeat url('/images/banner-1.png');
+    background-size: cover;
+}
+.productBannerImg2{
+    background:center center no-repeat url('/images/banner-2.png');
+    background-size: cover;
+}
 
 /*-------------Location-------------*/
 
@@ -211,6 +240,9 @@ body{
 }
 .fz_36{
     font-size: 36px;
+}
+.fz_42{
+    font-size: 42px;
 }
 .fz_48{
     font-size: 48px;
@@ -250,6 +282,9 @@ body{
 }
 .fc_light_gray{
     color: #707070;
+}
+.fc_dark{
+    color:#000000;
 }
 /*背景色*/
 .bg_color_Crimson{
@@ -413,7 +448,9 @@ body{
     border: 1px solid #000000;
 
 }
-
+.b_bottom_1_solid_lightgray{
+    border: 1px solid #DCDCDC;
+}
    
 
 /*-------------------- RWD --------------------*/
