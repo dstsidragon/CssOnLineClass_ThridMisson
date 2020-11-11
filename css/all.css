@@ -196,6 +196,9 @@ body{
     height: 309px;
     
 }
+.productOpticalContentItem{
+    width: 24%;
+}
 .productBannerImg{
     background:center center no-repeat url('/images/banner-1.png');
     background-size: cover;
@@ -203,6 +206,96 @@ body{
 .productBannerImg2{
     background:center center no-repeat url('/images/banner-2.png');
     background-size: cover;
+}
+
+.productSunglassesContentItem1 .productSunglassesContentItemImg,.productSunglassesContentItem7 .productSunglassesContentItemImg{
+    background:center center no-repeat url('/images/products-4.png');
+    background-size: cover;
+    height: 164px;
+}
+.productSunglassesContentItem2 .productSunglassesContentItemImg,.productSunglassesContentItem8 .productSunglassesContentItemImg{
+    background:center center no-repeat url('/images/products-3.png');
+    background-size: cover;
+    height: 164px;
+}
+.productSunglassesContentItem3 .productSunglassesContentItemImg,.productSunglassesContentItem9 .productSunglassesContentItemImg{
+    background:center center no-repeat url('/images/products-2.png');
+    background-size: cover;
+    height: 164px;
+}
+.productSunglassesContentItem4 .productSunglassesContentItemImg,.productSunglassesContentItem10 .productSunglassesContentItemImg{
+    background:center center no-repeat url('/images/products-6.jpg');
+    background-size: cover;
+    height: 164px;
+}
+.productSunglassesContentItem5 .productSunglassesContentItemImg,.productSunglassesContentItem11 .productSunglassesContentItemImg{
+    background:center center no-repeat url('/images/products-11.jpg');
+    background-size: cover;
+    height: 164px;
+}
+.productSunglassesContentItem6 .productSunglassesContentItemImg,.productSunglassesContentItem12 .productSunglassesContentItemImg{
+    background:center center no-repeat url('/images/products-5.jpg');
+    background-size: cover;
+    height: 164px;
+}
+
+.productOpticalContentItemColor1,.productOpticalContentItemColor2{
+    width: 24px;
+    height: 24px;
+    border-radius:20%;
+}
+.productChangePage{
+    width: 368px;
+}
+.productChangePage li:hover{
+    background-color: #000;
+}
+.productChangePage a:hover{
+    color: #fff;
+}
+
+.productSunglassesContentItem{
+    width: 32%;
+}
+
+.productOpticalContentItem1 .productOpticalContentItemImg,.productOpticalContentItem7 .productOpticalContentItemImg{
+    background:center center no-repeat url('/images/products-1.png');
+    background-size: cover;
+    height: 164px;
+}
+.productOpticalContentItem2 .productOpticalContentItemImg,.productOpticalContentItem8 .productOpticalContentItemImg{
+    background:center center no-repeat url('/images/products-7.jpg');
+    background-size: cover;
+    height: 164px;
+}
+.productOpticalContentItem3 .productOpticalContentItemImg,.productOpticalContentItem9 .productOpticalContentItemImg{
+    background:center center no-repeat url('/images/products-8.jpg');
+    background-size: cover;
+    height: 164px;
+}
+.productOpticalContentItem4 .productOpticalContentItemImg,.productOpticalContentItem10 .productOpticalContentItemImg{
+    background:center center no-repeat url('/images/products-10.jpg');
+    background-size: cover;
+    height: 164px;
+}
+.productOpticalContentItem5 .productOpticalContentItemImg,.productOpticalContentItem11 .productOpticalContentItemImg{
+    background:center center no-repeat url('/images/products-9.jpg');
+    background-size: cover;
+    height: 164px;
+}
+.productOpticalContentItem6 .productOpticalContentItemImg,.productOpticalContentItem12 .productOpticalContentItemImg{
+    background:center center no-repeat url('/images/products-12.jpg');
+    background-size: cover;
+    height: 164px;
+}
+
+.productSunglassesContentItemColor1,.productSunglassesContentItemColor2{
+    width: 24px;
+    height: 24px;
+    border-radius:20%;
+}
+.productSunglassesContent .productChangePage{
+    display:none;
 }
 
 /*-------------Location-------------*/
@@ -221,9 +314,13 @@ body{
     padding-left: 45px;
     padding-right: 45px;
 }
+
 /*字型*/
 .ff_Roboto{
     font-family: "Roboto", sans-serif;
+}
+.ff_NotoSans{
+    font-family: "Noto Sans", sans-serif;
 }
 /*字體大小*/
 .fz_14{
@@ -232,11 +329,20 @@ body{
 .fz_16{
     font-size: 16px;
 }
+.fz_18{
+    font-size: 18px;
+}
+.fz_19{
+    font-size: 19px;
+}
 .fz_20{
     font-size: 20px;
 }
 .fz_24{
     font-size: 24px;
+}
+.fz_32{
+    font-size: 32px;
 }
 .fz_36{
     font-size: 36px;
@@ -293,6 +399,12 @@ body{
 .bg_color_darkPink{
     background-color:#AA06010D;
 }
+.bg_color_drakBrown{
+    background-color: #5F3E2D;
+}
+.bg_color_darkOrange{
+    background-color: #B75929;
+}
 .bg_transparent{
     background: transparent;
 
@@ -321,6 +433,9 @@ body{
 .pd_4{
     padding: 32px;
 }
+.pd_top_1{
+    padding-top: 5px;
+}
 .pd_top_3{
     padding-top: 24px;
 }
@@ -330,6 +445,12 @@ body{
 .pd_top_8{
     padding-top: 64px;
 }
+.pd_top_11{
+    padding-top: 88px;
+}
+.pd_bottom_1{
+    padding-bottom: 8px;
+}
 .pd_bottom_3{
     padding-bottom: 24px;
 }
@@ -338,6 +459,9 @@ body{
 }
 .pd_bottom_10{
     padding-bottom: 80px;
+}
+.pd_bottom_20{
+    padding-bottom: 160px;
 }
 .pd_right_4{
     padding-right: 32px;
@@ -385,6 +509,9 @@ body{
 }
 .mg_bottom_10{
     margin-bottom: 80px;
+}
+.mg_bottom_13{
+    margin-bottom: 104px;
 }
 .mg_0a{
     margin: 0 auto;
@@ -450,6 +577,15 @@ body{
 }
 .b_bottom_1_solid_lightgray{
     border: 1px solid #DCDCDC;
+}
+.b_bottom_1_solid_gray{
+    border: 1px solid #555555;
+}
+
+
+.active{ 
+    
+    border-bottom:10px solid #AA0601;
 }
    
 
