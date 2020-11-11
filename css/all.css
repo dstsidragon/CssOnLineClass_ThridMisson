@@ -115,7 +115,7 @@ body{
 }
 /*-------------Index-------------*/
 .banner{
-    background:url('/images/banner.png') no-repeat center center;
+    background:url(/images/banner.png) no-repeat center center;
     background-size: cover;
     height: 840px;
     
@@ -136,7 +136,7 @@ body{
     width: 43%;
 }
 .co-branding{
-    background: center center url('/images/bg.png');
+    background: center center url(/images/bg.png);
 }
 .DoubleA{
     width: 47.5%;
