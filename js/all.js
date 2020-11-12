@@ -4,7 +4,7 @@
 
 
 $(document).ready(function () {
-
+ //點擊product頁面 切換產品資訊
     $('.opticalLink').click(function (e) { 
         e.preventDefault();
         $('.opticalLink').addClass('active');
@@ -28,6 +28,17 @@ $(document).ready(function () {
         $('.productSunglassesContent').addClass('dp_none');
         $('.productOpticalContent').removeClass('dp_none');
     });
-    
+//點擊local頁面 切換地圖資訊
+    $('.locationContentItemButton').click(function (e) { 
+        e.preventDefault();
+        $('.locationContent').addClass('dp_none');
+        $('.location2Content').removeClass('dp_none');
+    });
+    $('.location2ContentBackup').click(function (e) { 
+        e.preventDefault();
+        $('.location2Content').addClass('dp_none');
+        $('.locationContent').removeClass('dp_none');
+        
+    });
     
 });

@@ -307,6 +307,84 @@ body{
 }
 
 /*-------------Location-------------*/
+.locationBanner{
+    height: 304px;
+    background:center center url(../images/qa.png);
+}
+.locationBannerHeaderIcon{
+    width: 40px;
+    height: 58px;
+}
+.locationBannerHeader{
+    height: 100%;
+}
+.locationContentItem{
+    width: 32%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.locationContentItem1 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate1.jpeg);
+    background-size: cover;
+}
+.locationContentItem2 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate2.jpg);
+    background-size: cover;
+}
+.locationContentItem3 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate3.jpg);
+    background-size: cover;
+}
+.locationContentItem4 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate4.jpg);
+    background-size: cover;
+}
+.locationContentItem5 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate5.jpg);
+    background-size: cover;
+}
+.locationContentItemInfo img{
+    width: 20px;
+    height: 20px;
+}
+.locationContentItemButton{
+    width: 100%;
+}
+.locationContentItemButton:hover{
+    background-color: rgb(25, 167, 192);
+}
+.locationSelect{
+    width: 324px;
+    height: 45px;
+    border: 1px solid #CED4DA;
+}
+
+/*--local2--*/
+.locationContent2Item{
+    width: 40%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+.locationContent2Item .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate1.jpeg);
+    background-size: cover;
+
+}
+.location2Map{
+    width: 57%;
+    height: 442px;
+}
+.location2ContentBackup{
+    width: 80%;
+}
+
 
 /*-------------FAQ-------------*/
 
@@ -403,6 +481,9 @@ body{
 .fc_dark{
     color:#555555;
 }
+.fc_dark_gray{
+    color:#495057;
+}
 /*背景色*/
 .bg_color_Crimson{
     background-color: #AA0601;
@@ -419,6 +500,12 @@ body{
 .bg_color_darkWhite{
     background-color: rgba(240, 222, 222, 0.966);
 }
+.bg_color_dark{
+    background-color:#000000;
+}
+.bg_color_darkgray{
+    background-color:#495057;
+}
 .bg_transparent{
     background: transparent;
 
@@ -434,6 +521,7 @@ body{
 .ta_left{
     text-align: left;
 }
+
 /*內推擠*/
 .pd_1{
     padding: 8px;
@@ -448,7 +536,10 @@ body{
     padding: 32px;
 }
 .pd_top_1{
-    padding-top: 5px;
+    padding-top:8px;
+}
+.pd_top_2{
+    padding-top: 16px;
 }
 .pd_top_3{
     padding-top: 24px;
@@ -465,6 +556,9 @@ body{
 .pd_bottom_1{
     padding-bottom: 8px;
 }
+.pd_bottom_2{
+    padding-bottom: 16px;
+}
 .pd_bottom_3{
     padding-bottom: 24px;
 }
@@ -476,6 +570,21 @@ body{
 }
 .pd_bottom_20{
     padding-bottom: 160px;
+}
+.pd_bottom_35{
+    padding-bottom: 280px;
+}
+.pd_left_2{
+    padding-left: 16px;
+}
+.pd_left_3{
+    padding-left: 24px;
+}
+.pd_right_2{
+    padding-right: 16px;
+}
+.pd_right_3{
+    padding-right: 24px;
 }
 .pd_right_4{
     padding-right: 32px;
@@ -527,6 +636,9 @@ body{
 .mg_bottom_13{
     margin-bottom: 104px;
 }
+.mg_bottom_35{
+    margin-bottom: 280px;
+}
 .mg_0a{
     margin: 0 auto;
 }
@@ -537,6 +649,9 @@ body{
 }
 .dp_none{
     display: none;
+}
+.bx_border{
+    box-sizing: border-box;
 }
 /*Flex*/
 .dp_Flex{
@@ -569,6 +684,9 @@ body{
 .ai_baseline{
     align-items: baseline;
 }
+.ai_end{
+    align-items: flex-end;
+}
 /*高度*/
 .h_full{
     height: 100%;
@@ -595,7 +713,9 @@ body{
 .b_bottom_1_solid_gray{
     border: 1px solid #555555;
 }
-
+.b_bottom_1_solid_darkgray{
+    border: 1px solid #00000020;
+}
 
 .active{ 
     border-bottom:10px solid #AA0601;
