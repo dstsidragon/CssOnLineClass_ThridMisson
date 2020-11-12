@@ -387,6 +387,20 @@ body{
 
 
 /*-------------FAQ-------------*/
+.faqBanner{
+    height: 304px;
+    background:center center url(../images/qa.png);
+}
+.faqBannerHeaderIcon{
+    width: 58px;
+    height: 58px;
+}
+.faqBannerHeader{
+    height: 100%;
+}
+.faqContentItemContent{
+    width: 900px;
+}
 
 /*-------------Blog-------------*/
 
@@ -521,6 +535,7 @@ body{
 .ta_left{
     text-align: left;
 }
+/
 
 /*內推擠*/
 .pd_1{
@@ -547,8 +562,14 @@ body{
 .pd_top_4{
     padding-top: 32px;
 }
+.pd_top_5{
+    padding-top: 40px;
+}
 .pd_top_8{
     padding-top: 64px;
+}
+.pd_top_10{
+    padding-top: 80px;
 }
 .pd_top_11{
     padding-top: 88px;
@@ -570,6 +591,9 @@ body{
 }
 .pd_bottom_20{
     padding-bottom: 160px;
+}
+.pd_bottom_33{
+    padding-bottom: 264px;
 }
 .pd_bottom_35{
     padding-bottom: 280px;
