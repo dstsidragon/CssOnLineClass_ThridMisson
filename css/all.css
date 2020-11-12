@@ -178,6 +178,14 @@ body{
 .opticalLinkkImg{
     width: 48px;
 }
+.opticalLink,.sunglassesLink,.functionalLink{
+    border-bottom:10px solid transparent;
+} 
+.opticalLink:hover,.sunglassesLink:hover,.functionalLink:hover{
+    background-color: rgba(240, 222, 222, 0.966); 
+    border-bottom:10px solid #AA0601;
+    
+} 
 .sunglassesLinkImg{
     width: 48px;
 }
@@ -404,6 +412,9 @@ body{
 }
 .bg_color_darkOrange{
     background-color: #B75929;
+}
+.bg_color_darkWhite{
+    background-color: rgba(240, 222, 222, 0.966);
 }
 .bg_transparent{
     background: transparent;
