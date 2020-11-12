@@ -40,5 +40,20 @@ $(document).ready(function () {
         $('.locationContent').removeClass('dp_none');
         
     });
+//點擊blog頁面 切換資訊    
+    $('.blogLink').click(function (e) { 
+        $('.blog2').addClass('dp_none');
+        $('.blog1').removeClass('dp_none');
+    });
+    $('.specialProjectLink').click(function (e) { 
+        e.preventDefault();
+        $('.blog2').addClass('dp_none');
+        $('.blog1').removeClass('dp_none');
+    });
+    $('.blogContentItemContentMoreLink').click(function (e) { 
+        e.preventDefault();
+        $('.blog2').addClass('dp_none');
+        $('.blog1').removeClass('dp_none');
+    });
     
 });
