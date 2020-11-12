@@ -115,7 +115,7 @@ body{
 }
 /*-------------Index-------------*/
 .banner{
-    background:url('/images/banner.png') no-repeat center center;
+    background:url(/images/banner.png) no-repeat center center;
     background-size: cover;
     height: 840px;
     
@@ -200,7 +200,7 @@ body{
     width: 24%;
 }
 .productBannerImg{
-    background:center center no-repeat url('/images/banner-1.png');
+    background:center center no-repeat url(/images/banner-1.png);
     background-size: cover;
 }
 .productBannerImg2{
