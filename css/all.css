@@ -401,10 +401,92 @@ body{
 .faqContentItemContent{
     width: 900px;
 }
-
+.blogMenu a:hover{
+    outline: 1px solid rgb(25, 167, 192);
+}
 /*-------------Blog-------------*/
+.blogContentItem{
+    height: 400px;
+}
+.blogContentItemImg1{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-1.png);
+    background-size: cover;
+}
+.blogContentItemImg2{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-2.png);
+    background-size: cover;
+}
+.blogContentItemImg3{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-3.png);
+    background-size: cover;
+}
+.blogContentItemImg4{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-4.png);
+    background-size: cover;
+}
+.blogContentItemImg5{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-5.png);
+    background-size: cover;
+}
+.blogContentItemContent{
+    width: 49%;
+}
+
+.blogChangePage{
+    width: 368px;
+}
+.blogChangePage li:hover{
+    background-color: #000;
+}
+.blogChangePage a:hover{
+    color: #fff;
+}
+
+/*--blog2--*/
 
 
+.blog2SideBar{
+    width: 22%;
+}
+.blog2Main{
+    width: 75%;
+}
+.blog2MainTittle2Img1{
+    background: center center no-repeat url(../images/blog-1.png);
+    background-size: cover;
+    height: 539px;
+}
+.blog2MainTittle2Img2{
+    background: center center no-repeat url(../images/blog-6.png);
+    background-size: cover;
+    height: 472px;
+}
+.blog2MainTittle2Img3{
+    background: center center no-repeat url(../images/blog-7.png);
+    background-size: cover;
+    height: 472px;
+}
+.blog2MainTittle2Img4{
+    background: center center no-repeat url(../images/blog-10.jpg);
+    background-size: cover;
+    height: 472px;
+}
+.blog2MainChangePageLast img{
+    width: 24px;
+}
+.blog2SideBarTagList{
+    width: 100%;
+}
 
 /*--------   共用   --------*/
 
@@ -414,7 +496,9 @@ body{
     padding-left: 45px;
     padding-right: 45px;
 }
-
+.mg_0a{
+    margin: 0 auto;
+}
 /*字型*/
 .ff_Roboto{
     font-family: "Roboto", sans-serif;
@@ -440,6 +524,9 @@ body{
 }
 .fz_24{
     font-size: 24px;
+}
+.fz_28{
+    font-size: 28px;
 }
 .fz_32{
     font-size: 32px;
@@ -492,11 +579,17 @@ body{
 .fc_dark{
     color:#000000;
 }
-.fc_dark{
+.fc_dark_gray_2{
     color:#555555;
 }
 .fc_dark_gray{
     color:#495057;
+}
+.fc_light_gray_2{
+    color:#6C6C6C;
+}
+.fc_light_gray_3{
+    color:#0A0A0A;
 }
 /*背景色*/
 .bg_color_Crimson{
@@ -520,6 +613,9 @@ body{
 .bg_color_darkgray{
     background-color:#495057;
 }
+.bg_color_darkred{
+    background-color:#650300;
+}
 .bg_transparent{
     background: transparent;
 
@@ -535,7 +631,7 @@ body{
 .ta_left{
     text-align: left;
 }
-/
+
 
 /*內推擠*/
 .pd_1{
@@ -630,8 +726,14 @@ body{
 .mg_right_4{
     margin-right: 32px;
 }
+.mg_right_6{
+    margin-right: 48px;
+}
 .mg_right_8{
     margin-right: 64px;
+}
+.mg_left_1{
+    margin-left: 8px;
 }
 .mg_top_4{
     margin-top: 32px;
@@ -660,23 +762,15 @@ body{
 .mg_bottom_13{
     margin-bottom: 104px;
 }
+.mg_bottom_21{
+    margin-bottom: 168px;
+}
 .mg_bottom_35{
     margin-bottom: 280px;
 }
-.mg_0a{
-    margin: 0 auto;
-}
 
-/*區塊、行內*/
-.dp_block{
-    display: block;
-}
-.dp_none{
-    display: none;
-}
-.bx_border{
-    box-sizing: border-box;
-}
+
+
 /*Flex*/
 .dp_Flex{
     display: flex;
@@ -711,6 +805,16 @@ body{
 .ai_end{
     align-items: flex-end;
 }
+/*區塊、行內*/
+.dp_block{
+    display: block;
+}
+.dp_none{
+    display: none;
+}
+.bx_border{
+    box-sizing: border-box;
+}
 /*高度*/
 .h_full{
     height: 100%;
@@ -720,25 +824,42 @@ body{
     width: 100%;
 }
 /*邊線*/
+.b_1_solid_lightwhite{
+    border: 1px solid #DEE2E6;
+
+}
+.b_1_solid_dark{
+    border: 1px solid #000000;
+
+}
+.b_1_solid_lightgray{
+    border: 1px solid #DCDCDC;
+}
+.b_1_solid_gray{
+    border: 1px solid #555555;
+}
+.b_1_solid_darkgray{
+    border: 1px solid #00000020;
+}
 .b_bottom_1_solid_white{
     border-bottom: 1px solid #FFFFFF;
 }
 .b_bottom_1_solid_lightwhite{
-    border: 1px solid #DEE2E6;
+    border-bottom: 1px solid #DEE2E6;
 
 }
 .b_bottom_1_solid_dark{
-    border: 1px solid #000000;
+    border-bottom: 1px solid #000000;
 
 }
 .b_bottom_1_solid_lightgray{
-    border: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
 }
 .b_bottom_1_solid_gray{
-    border: 1px solid #555555;
+    border-bottom: 1px solid #555555;
 }
 .b_bottom_1_solid_darkgray{
-    border: 1px solid #00000020;
+    border-bottom: 1px solid #00000020;
 }
 
 .active{ 
