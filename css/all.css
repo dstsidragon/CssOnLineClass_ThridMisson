@@ -115,7 +115,7 @@ body{
 }
 /*-------------Index-------------*/
 .banner{
-    background:url(/images/banner.png) no-repeat center center;
+    background:url('../images/banner.png') no-repeat center center;
     background-size: cover;
     height: 840px;
     
@@ -136,12 +136,12 @@ body{
     width: 43%;
 }
 .co-branding{
-    background: center center url('/images/bg.png');
+    background: center center url('../images/bg.png');
 }
 .DoubleA{
     width: 47.5%;
     height: 472px;
-    background: center center url('/images/product-8.png');
+    background: center center url('../images/product-8.png');
     opacity: 0.5;
     background-size: cover;
 }
@@ -149,7 +149,7 @@ body{
 .Youth{
     width: 47.5%;
     height: 472px;
-    background: center center url('/images/product-9.png');
+    background: center center url('../images/product-9.png');
     opacity: 0.5;
     background-size: cover;
 }
@@ -200,41 +200,41 @@ body{
     width: 24%;
 }
 .productBannerImg{
-    background:center center no-repeat url(/images/banner-1.png);
+    background:center center no-repeat url('../images/banner-1.png');
     background-size: cover;
 }
 .productBannerImg2{
-    background:center center no-repeat url('/images/banner-2.png');
+    background:center center no-repeat url('../images/banner-2.png');
     background-size: cover;
 }
 
 .productSunglassesContentItem1 .productSunglassesContentItemImg,.productSunglassesContentItem7 .productSunglassesContentItemImg{
-    background:center center no-repeat url('/images/products-4.png');
+    background:center center no-repeat url('../images/products-4.png');
     background-size: cover;
     height: 164px;
 }
 .productSunglassesContentItem2 .productSunglassesContentItemImg,.productSunglassesContentItem8 .productSunglassesContentItemImg{
-    background:center center no-repeat url('/images/products-3.png');
+    background:center center no-repeat url('../images/products-3.png');
     background-size: cover;
     height: 164px;
 }
 .productSunglassesContentItem3 .productSunglassesContentItemImg,.productSunglassesContentItem9 .productSunglassesContentItemImg{
-    background:center center no-repeat url('/images/products-2.png');
+    background:center center no-repeat url('../images/products-2.png');
     background-size: cover;
     height: 164px;
 }
 .productSunglassesContentItem4 .productSunglassesContentItemImg,.productSunglassesContentItem10 .productSunglassesContentItemImg{
-    background:center center no-repeat url('/images/products-6.jpg');
+    background:center center no-repeat url('../images/products-6.jpg');
     background-size: cover;
     height: 164px;
 }
 .productSunglassesContentItem5 .productSunglassesContentItemImg,.productSunglassesContentItem11 .productSunglassesContentItemImg{
-    background:center center no-repeat url('/images/products-11.jpg');
+    background:center center no-repeat url('../images/products-11.jpg');
     background-size: cover;
     height: 164px;
 }
 .productSunglassesContentItem6 .productSunglassesContentItemImg,.productSunglassesContentItem12 .productSunglassesContentItemImg{
-    background:center center no-repeat url('/images/products-5.jpg');
+    background:center center no-repeat url('../images/products-5.jpg');
     background-size: cover;
     height: 164px;
 }
@@ -259,32 +259,32 @@ body{
 }
 
 .productOpticalContentItem1 .productOpticalContentItemImg,.productOpticalContentItem7 .productOpticalContentItemImg{
-    background:center center no-repeat url('/images/products-1.png');
+    background:center center no-repeat url('../images/products-1.png');
     background-size: cover;
     height: 164px;
 }
 .productOpticalContentItem2 .productOpticalContentItemImg,.productOpticalContentItem8 .productOpticalContentItemImg{
-    background:center center no-repeat url('/images/products-7.jpg');
+    background:center center no-repeat url('../images/products-7.jpg');
     background-size: cover;
     height: 164px;
 }
 .productOpticalContentItem3 .productOpticalContentItemImg,.productOpticalContentItem9 .productOpticalContentItemImg{
-    background:center center no-repeat url('/images/products-8.jpg');
+    background:center center no-repeat url('../images/products-8.jpg');
     background-size: cover;
     height: 164px;
 }
 .productOpticalContentItem4 .productOpticalContentItemImg,.productOpticalContentItem10 .productOpticalContentItemImg{
-    background:center center no-repeat url('/images/products-10.jpg');
+    background:center center no-repeat url('../images/products-10.jpg');
     background-size: cover;
     height: 164px;
 }
 .productOpticalContentItem5 .productOpticalContentItemImg,.productOpticalContentItem11 .productOpticalContentItemImg{
-    background:center center no-repeat url('/images/products-9.jpg');
+    background:center center no-repeat url('../images/products-9.jpg');
     background-size: cover;
     height: 164px;
 }
 .productOpticalContentItem6 .productOpticalContentItemImg,.productOpticalContentItem12 .productOpticalContentItemImg{
-    background:center center no-repeat url('/images/products-12.jpg');
+    background:center center no-repeat url('../images/products-12.jpg');
     background-size: cover;
     height: 164px;
 }
@@ -629,7 +629,7 @@ body{
 
 /*-------------Index-------------*/
 .banner{
-    background:url(/images/banner-sm.png) no-repeat center center;
+    background:url('../images/banner-sm.png') no-repeat center center;
     background-size: cover;
 }
 .containerTittle{
@@ -697,7 +697,7 @@ body{
     height: 32px;
 }
 .co-branding{
-    background: center center no-repeat url('/images/bg.png');
+    background: center center no-repeat url('../images/bg.png');
     background-size: cover;
 }
 .co-branding .container{
