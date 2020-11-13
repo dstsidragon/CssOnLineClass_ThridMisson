@@ -215,6 +215,14 @@ body{
     background:center center no-repeat url('../images/banner-2.png');
     background-size: cover;
 }
+.SunglassesContent .productBannerImg{
+    background:center center no-repeat url('../images/banner-3.png');
+    background-size: cover;
+}
+.SunglassesContent .productBannerImg2{
+    background:center center no-repeat url('../images/product-2-color.png');
+    background-size: cover;
+}
 
 .productSunglassesContentItem1 .productSunglassesContentItemImg,.productSunglassesContentItem7 .productSunglassesContentItemImg{
     background:center center no-repeat url('../images/products-4.png');
@@ -1047,6 +1055,88 @@ body{
 
 /*-------------Product-------------*/
 
+.opticalLinkkImg{
+    width: 32px;
+}
+.sunglassesLinkImg{
+    width: 32px;
+}
+.functionalLinkImg{
+    width: 23px;
+}
+.opticalLink,.sunglassesLink,.functionalLink{
+    border-bottom:8px solid transparent;
+} 
+.opticalLink:hover,.sunglassesLink:hover,.functionalLink:hover{
+    background-color: rgba(240, 222, 222, 0.966); 
+    border-bottom:8px solid #AA0601;
+    
+} 
+.glassClassItemMain{
+    font-size: 28px;
+}
+.productBanner div{
+    width: 50%;
+    height: 309px;
+    
+}
+.opticalLink,.sunglassesLink,.functionalLink{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.productOpticalContent{
+    padding-top: 40px;
+    padding-bottom: 104px;
+}
+.productOpticalContentTiTle{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.productOpticalContentTiTle2{
+    font-size: 24px;
+}
+.productOpticalContentItem{
+    width: 48%;
+    margin-bottom: 72px;
+}
+.productOpticalContentList{
+    margin-bottom: 33px;
+}
+.productSunglassesContent .productChangePage{
+    display:flex;
+}
+.productSunglassesContentItem{
+    width: 48%;
+}
+.productSunglassesContentItemTittle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productSunglassesContent{
+    padding-top: 40px;
+    padding-bottom: 104px;
+}
+.productSunglassesContentTiTle{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.productSunglassesContentTiTle2{
+    font-size: 24px;
+}
+.productSunglassesContentItem{
+    width: 48%;
+    margin-bottom: 72px;
+}
+.productSunglassesContentList{
+    margin-bottom: 33px;
+}
+
+.Sunglasses_none{
+    display: block;
+}
+
 /*-------------Location-------------*/
 
 /*-------------FAQ-------------*/
@@ -1055,7 +1145,7 @@ body{
 
 }
 
-/*---- 767~414 Phone----*/
+/*---- 767~376 Phone----*/
 @media(max-width: 767px) {
 /*----- header -----*/
 .header{
@@ -1238,6 +1328,59 @@ body{
 }
 
 /*-------------Product-------------*/
+.glassClassItemMain{
+    font-size: 14px;
+}
+.opticalLinkkImg{
+    width: 15px;
+}
+.sunglassesLinkImg{
+    width: 14px;
+}
+.functionalLinkImg{
+    width: 11px;
+}
+.opticalLink,.sunglassesLink,.functionalLink{
+    border-bottom:4px solid transparent;
+} 
+.opticalLink:hover,.sunglassesLink:hover,.functionalLink:hover{ 
+    border-bottom:4px solid #AA0601;
+    
+} 
+.productBanner div{
+    height: 144px;
+ 
+}
+.opticalLink,.sunglassesLink,.functionalLink{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.productOpticalContent,.productSunglassesContent{
+    padding-top: 30px;
+    padding-bottom: 56px;
+}
+.productOpticalContentTiTle,.productSunglassesContentTiTle{
+    font-size:20px;
+    margin-bottom: 16px;
+}
+.productOpticalContentTiTle2,.productSunglassesContentTiTle2{
+    font-size:16px;
+}
+.productOpticalContentItem,.productSunglassesContentItem{
+    width: 100%;
+    margin-bottom: 32px;
+}
+.productOpticalContentList,.productSunglassesContentList{
+    height:768px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.productChangePage a{
+    font-size: 12px;
+}
+
+
+
 
 /*-------------Location-------------*/
 
@@ -1248,6 +1391,9 @@ body{
 }
 
 
+/*---- 375~321 Phone----*/
+@media(max-width: 375px) {
+    }
 
 /*---- 320 Phone----*/
 @media(max-width: 320px) {

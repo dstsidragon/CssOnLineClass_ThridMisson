@@ -1,8 +1,5 @@
 
 
-
-
-
 $(document).ready(function () {
  //點擊product頁面 切換產品資訊
     $('.opticalLink').click(function (e) { 
@@ -10,23 +7,23 @@ $(document).ready(function () {
         $('.opticalLink').addClass('active');
         $('.functionalLink').removeClass('active');
         $('.sunglassesLink').removeClass('active');
-        $('.productSunglassesContent').addClass('dp_none');
-        $('.productOpticalContent').removeClass('dp_none');
+        $('.SunglassesContent').addClass('dp_none');
+        $('.OpticalContent').removeClass('dp_none');
     });$('.sunglassesLink').click(function (e) { 
         e.preventDefault();
         $('.sunglassesLink').addClass('active');
         $('.functionalLink').removeClass('active');
         $('.opticalLink').removeClass('active');
-        $('.productOpticalContent').addClass('dp_none');
-        $('.productSunglassesContent').removeClass('dp_none');
+        $('.OpticalContent').addClass('dp_none');
+        $('.SunglassesContent').removeClass('dp_none');
     });
     $('.functionalLink').click(function (e) { 
         e.preventDefault();
         $('.functionalLink').addClass('active');
         $('.opticalLink').removeClass('active');
         $('.sunglassesLink').removeClass('active');
-        $('.productSunglassesContent').addClass('dp_none');
-        $('.productOpticalContent').removeClass('dp_none');
+        $('.SunglassesContent').addClass('dp_none');
+        $('.OpticalContent').removeClass('dp_none');
     });
 //點擊local頁面 切換地圖資訊
     $('.locationContentItemButton').click(function (e) { 
