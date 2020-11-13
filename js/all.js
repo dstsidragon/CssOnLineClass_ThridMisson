@@ -47,13 +47,13 @@ $(document).ready(function () {
     });
     $('.specialProjectLink').click(function (e) { 
         e.preventDefault();
-        $('.blog2').addClass('dp_none');
-        $('.blog1').removeClass('dp_none');
+        $('.blog1').addClass('dp_none');
+        $('.blog2').removeClass('dp_none');
     });
     $('.blogContentItemContentMoreLink').click(function (e) { 
         e.preventDefault();
-        $('.blog2').addClass('dp_none');
-        $('.blog1').removeClass('dp_none');
+        $('.blog1').addClass('dp_none');
+        $('.blog2').removeClass('dp_none');
     });
     
 });
