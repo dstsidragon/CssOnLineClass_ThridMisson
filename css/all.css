@@ -1342,6 +1342,7 @@ body{
 /*---- 767~376 Phone----*/
 @media(max-width: 767px) {
 /*----- header -----*/
+
 .header{
     padding: 0;
     flex-wrap:wrap;
@@ -1356,6 +1357,7 @@ body{
 .headerLogo_img{
     margin: 0 auto;
     height: auto;
+    width: 85px;
 }
 .headerMenu{
     flex-wrap:wrap;
@@ -1373,7 +1375,7 @@ body{
 
 .headerMenuItem{
     padding:8px 0;
-    width: 49.5%;
+    width: 49.7%;
     margin-right: 0;
     border: 1px solid #ffffff;
 }
