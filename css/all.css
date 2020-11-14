@@ -460,6 +460,9 @@ body{
 .blogChangePage a:hover{
     color: #fff;
 }
+.blogContentItemContentMore2_table{
+    display: none;
+}
 
 /*--blog2--*/
 
@@ -776,6 +779,9 @@ body{
 }
 .mg_bottom_35{
     margin-bottom: 280px;
+}
+.mg_bottom_38{
+    margin-bottom:304px;
 }
 
 
@@ -1216,8 +1222,122 @@ body{
 
 
 /*-------------FAQ-------------*/
+.faqBannerHeaderWord{
+    font-size: 48px;
+}
+.faqBannerHeaderIcon{
+    width: 48px;
+    height: 48px;
+}
+
+.faqContentItemContent{
+    width: 630px;
+}
+.faqContent{
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+.faqContentTittle{
+    margin-bottom: 36px;
+}
 
 /*-------------Blog-------------*/
+.blogMenuItem{
+    font-size: 16px;
+}
+.blogMenubar{
+    margin-bottom: 40px;
+}
+.blogContentItem{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 206px;
+    margin-bottom: 32px;
+}
+.blogContentItemContentTitle{
+    font-size: 20px;
+}
+.blogContentItemContentTitle2Main{
+    font-size: 16px;
+}
+.blogContentItemContentTitle2Main2{
+    font-size: 14px;
+}
+.blogContentItemContentText,.blogContentItemContentMore{
+    display:none;
+}
+.blogContentItemContentTitle2{
+    margin-bottom: 8px;
+}
+.blogContentItemContentMore2_table{
+    display: block;
+}
+.blogChangePage{
+    margin-bottom: 104px;
+}
+.blogContent{
+    margin-bottom: 82px;
+}
+
+
+
+/*--blog2--*/
+.blog2BannerUrl{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.blog2BannerTag{
+    font-size: 16px;
+}
+.blog2MainTittle{
+    font-size: 32px;
+}
+.blog2MainTittle2Name{
+    font-size: 16px;
+}
+.blog2MainTittle2Date{
+    font-size: 14px;
+}
+.blog2MainTittle2{
+    margin-bottom: 16px;
+}
+.blog2MainTittle2Img1{
+    height: 333px;
+    margin-bottom: 16px;
+}
+.blog2MainContent{
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #0A0A0A;
+    opacity: 0.6;
+}
+.blog2MainTittle2Img2,.blog2MainTittle2Img3,.blog2MainTittle2Img4{
+    height: 292px;
+}
+.blog2MainContent{
+    margin-bottom: 24px;
+}
+.blog2MainShare{
+    padding-top: 0;
+    margin-bottom: 16px;
+}
+.blog2MainChangePage{
+    margin-bottom: 104px;
+}
+.blog2SideBarTittle{
+    font-size: 20px;
+}
+.blog2SideBarTagList{
+    font-size: 16px;
+}
+.blog2Main{
+    width: 80%;
+}
+.blog2SideBar{
+    width: 15%;
+}
+
+
 
 }
 
