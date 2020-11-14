@@ -493,7 +493,7 @@ body{
     background-size: cover;
     height: 472px;
 }
-.blog2MainChangePageLast img{
+.iconUndo,.iconRedo{
     width: 24px;
 }
 .blog2SideBarTagList{
@@ -949,7 +949,7 @@ body{
 .order_1{
     order: -1;
 }
-.servicetcontentItem img{
+.servicetcontentImg{
     margin-bottom: 16px;
 }
 .servicetcontentItem h3{
@@ -971,7 +971,7 @@ body{
 .classificationLink img{
     width: 32px;
 }
-.classificationLink p{
+.classificationLinkWord{
     font-size: 28px;
 }
 .optical{
@@ -1337,8 +1337,6 @@ body{
     width: 15%;
 }
 
-
-
 }
 
 /*---- 767~376 Phone----*/
@@ -1357,6 +1355,7 @@ body{
 
 .headerLogo_img{
     margin: 0 auto;
+    height: auto;
 }
 .headerMenu{
     flex-wrap:wrap;
@@ -1434,7 +1433,7 @@ body{
     padding-top: 32px;
     padding-bottom: 12px;
 }
-.servicetcontentItem img{
+.servicetcontentImg{
     width: 80px;
 }
 .classification{
@@ -1456,7 +1455,7 @@ body{
 .classificationLinkHideImg{
     display: block;
 }
-.classificationLink p{
+.classificationLinkWord{
     color: #FFF;
 }
 .classificationImg{
@@ -1633,32 +1632,171 @@ body{
     width:100%;
 }
 
+
 /*-------------FAQ-------------*/
+.faqBannerHeaderWord{
+    font-size:28px;
+}
+.faqBannerHeaderIcon{
+    width: 24px;
+    height: 24px;
+}
+.faqContent{
+    padding-top:24px;
+    padding-bottom: 36px;
+}
+.faqContentItemContent{
+    width: auto;
+}
+.faqContentTittle{
+    margin-bottom: 8px;
+}
+.faqContentItem{
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
 /*-------------Blog-------------*/
+.blogMenubar,.blogContentItemContentMore2_table{
+    display: none;
+}
+.blogContent{
+    padding-top: 24px;
+}
+.blogContentItemImg1,.blogContentItemImg2,
+.blogContentItemImg3,.blogContentItemImg4,
+.blogContentItemImg5{
+    display: none;
+    width: 100%;
+    height: 193px;
+}
+.imgLink_mobile{
+    display: block;
+}
+.blogContentItem{
+    display: block;
+    padding-bottom: 0px;
+    height: auto;
+    margin-bottom: 26px;
+}
+.blogContentItemContentTitle{
+    font-size: 16px;
+}
+.blogContentItemContentTitle2Main{
+    font-size: 14px;
+}
+.blogContentItemContent{
+    width: 100%;
+}
+.blogContentItemContentMoreLink{
+    margin-bottom: 8px;
+}
+
+
+
+
+.blogMenuItem{
+    font-size: 16px;
+}
+
+.blogChangePage{
+    margin-bottom: 56px;
+}
+.blogContent{
+    margin-bottom: 13px;
+}
+
+
+
+/*--blog2--*/
+.searchLink{
+    display: none;
+}
+.blogMenuList{
+    width: 100%;
+    justify-content: space-around;
+}
+.blogMenuLink{
+    margin-right: 0;
+}
+.blog2BannerUrl{
+    margin-bottom: 6px;
+}
+.blog2BannerTag{
+    font-size: 14px;
+}
+.blog2MainTittle{
+    font-size: 20px;
+}
+.blog2MainTittle2Name{
+    font-size: 14px;
+} 
+.blog2MainTittle2{
+    margin-bottom: 19px;
+}
+.blog2MainTittle2Img2,.blog2MainTittle2Img3,.blog2MainTittle2Img4{
+    height: 169px;
+}
+.blog2MainTittle2Img1{
+    height: 193px;
+}
+.blog2MainContent{
+    margin-bottom:24px;
+}
+.blog2Main{
+    width: 90%;
+}
+.blog2SideBar{
+    width: 90%;
+    margin-bottom: 56px;
+}
+.blog2Content{
+    display: block;
+}
+.blog2MainChangePage{
+    margin-bottom: 39px;
+}
+.blog2SideBarTagList{
+    justify-content: start;
+}
+.blog2SideBarTag{
+    margin-right: 8px;
+}
+.blog2MainChangePage{
+    flex-wrap: wrap
+}
+.blog2MainChangePageNext{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.iconUndo {
+    width: 16px;
+}
+.iconRedo{
+    width: 16px;
+    margin-right:8px;
+    margin-left: 0;
+}
+
+
 
 }
 
 
-/*---- 375~321 Phone----*/
-@media(max-width: 375px) {
-    }
+/*---- 414~321 Phone----*/
+@media(max-width: 415px) {
+/*----- header -----*/
 
-/*---- 320 Phone----*/
-@media(max-width: 320px) {
-    /*----- header -----*/
 
-.headerMenuItem a:hover{
-    border:none;
-    padding-bottom: 0;
-    color: cornflowerblue;
-}
 
 .headerMenuItem{
-    width: 49.3%;
+    width: 49.33%;
 }
 /*----- footer -----*/
-
 
 .footerBlockTop{
     flex-direction:column;
@@ -1707,4 +1845,62 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+    }
+
+/*---- 320 Phone----*/
+@media(max-width: 320px) {
+.container{
+    width: 285px;
+}
+/*-------------header-------------*/
+.headerLogo_img{
+    width: 90px;
+}
+
+/*-------------index-------------*/
+.contactForm{
+    width: 260px;
+}
+.servicetcontentWord{
+    display: none;
+}
+.servicetcontentList{
+    width:1200px ;
+    flex-wrap: nowrap;
+
+}
+.servicetcontentItem{
+    width: 100%;
+}
+.classificationLinkWord{
+    font-size: 20px;
+}
+.customerfeedbackContent{
+    width: 1600px;
+    flex-wrap: nowrap;
+}
+.scroll{
+    overflow: scroll;
+    width: 320px;
+    padding-left: 0;
+    margin-left: 0;
+}
+/*-------------product-------------*/
+.glassClassItemMain{
+    font-size: 12px;
+}
+.productChangePage{
+    width: 250px;
+}
+/*-------------Local-------------*/
+.locationContentList{
+    height: 905px;
+    overflow: hidden;
+}
+.ChangePageMobile{
+    display: flex;
+}
+
+   
+
 }
