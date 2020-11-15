@@ -176,6 +176,10 @@ body{
     -moz-appearance: none;     /* FireFox */
     appearance: none;
 }
+.formButton:hover{
+    background-color:white;
+    color:red;
+}
 
 /*-------------Product-------------*/
 .opticalLinkkImg{
@@ -1342,8 +1346,8 @@ body{
 
 }
 
-/*---- 767~376 Phone----*/
-@media(max-width: 767px) {
+/*---- 767~415 Phone----*/
+@media(max-width: 767.9px) {
 /*----- header -----*/
 
 .header{
@@ -1793,7 +1797,7 @@ body{
 
 
 /*---- 414~321 Phone----*/
-@media(max-width: 415px) {
+@media(max-width: 414.9px) {
 /*----- header -----*/
 
 
@@ -1853,9 +1857,11 @@ body{
     }
 
 /*---- 320 Phone----*/
-@media(max-width: 320px) {
+@media(max-width: 320.9px) {
 .container{
-    width: 285px;
+    max-width: 285px;
+    padding-left: 0;
+    padding-right: 0;
 }
 /*-------------header-------------*/
 .headerLogo_img{
@@ -1880,15 +1886,18 @@ body{
 .classificationLinkWord{
     font-size: 20px;
 }
-.customerfeedbackContent{
+.customerfeedbackContent {
     width: 1600px;
     flex-wrap: nowrap;
 }
 .scroll{
     overflow: scroll;
-    width: 320px;
+    width: 305px;
     padding-left: 0;
     margin-left: 0;
+}
+.customerfeedback{
+    margin: 0;
 }
 /*-------------product-------------*/
 .glassClassItemMain{
