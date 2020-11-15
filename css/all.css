@@ -126,9 +126,26 @@ body{
 .servicetcontentList{
     width: 100%;
 }
+@keyframes swing{
+    15%{transform: translateX(15px)};
+    40%{transform: translateX(-15px)};
+    65%{transform: translateX(12px)};
+    85%{transform: translateX(-12px)};
+    100%{transform: translateX(0px)};
+}
+.servicetcontentImg:hover{
+    
+    animation: swing 1s infinite;
+}
 .servicetcontentItem{
     width:20%;
 }
+/*陰影效果*/
+.classificationLinkWord:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0,0.8);
+}
+
+
 .classificationImg{
     width: 53%;
 }
@@ -176,10 +193,23 @@ body{
     -moz-appearance: none;     /* FireFox */
     appearance: none;
 }
+.formButton {
+	position: relative;
+	border: 1px solid rgba(0,0,0,0.5);
+	transition: all 0.5s linear;
+}
 .formButton:hover{
     background-color:white;
     color:red;
+    border-radius: 25px;
+	transition: all 0.5s linear;  
 }
+.formButton:active{
+    border-radius: 0;
+}
+
+
+	
 
 /*-------------Product-------------*/
 .opticalLinkkImg{
@@ -1800,6 +1830,9 @@ body{
 @media(max-width: 414.9px) {
 /*----- header -----*/
 
+.blog2Main{
+    width:100%;
+}
 
 
 .headerMenuItem{
@@ -1851,8 +1884,8 @@ body{
 
 .container{
     max-width: 370px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left:0px;
+    padding-right: 0px;
 }
     }
 
@@ -1869,6 +1902,9 @@ body{
 }
 
 /*-------------index-------------*/
+.containerTittle{
+    font-size: 28px;
+}
 .contactForm{
     width: 260px;
 }
@@ -1915,6 +1951,8 @@ body{
     display: flex;
 }
 
-   
+.blogMenuLink{
+    font-size: 14px;
+}
 
 }
