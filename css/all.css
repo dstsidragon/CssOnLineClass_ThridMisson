@@ -81,10 +81,11 @@ body{
 }
 
 .headerMenuItem a:hover{
-    border-bottom: cornflowerblue 10px solid;
-    padding-bottom: 30px;
-    color:cornflowerblue;
+    color:#AA0601;
     font-weight: bold;
+    background-color: #fff;
+    border-radius: 15%;
+
 }
 
 
